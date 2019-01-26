@@ -1,0 +1,166 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.container {
+  width: 1170px;
+  margin: 0 auto; }
+
+.navbar {
+  height: 100px; }
+
+.section01 {
+  height: 700px;
+  background: #546279; }
+  .section01 .section01-div {
+    background: #222c40;
+    height: 360px;
+    width: 100%; }
+    .section01 .section01-div h1 {
+      margin-bottom: 45px;
+      color: #fff; }
+    .section01 .section01-div .section01-logo {
+      margin-bottom: 20px;
+      color: #fff; }
+    .section01 .section01-div .p-div {
+      width: 690px;
+      margin-bottom: 20px;
+      color: #fff; }
+      .section01 .section01-div .p-div p {
+        font-size: 15px;
+        text-align: center; }
+
+.section02 {
+  height: 600px; }
+  .section02 .section02-div01 {
+    margin-top: 60px; }
+    .section02 .section02-div01 h4 {
+      margin: 30px 0; }
+    .section02 .section02-div01 p {
+      margin: 30px 0;
+      width: 760px;
+      text-align: center;
+      margin-bottom: 100px; }
+  .section02 .section02-div-obj {
+    height: 220px;
+    width: 260px; }
+    .section02 .section02-div-obj h3 {
+      margin: 27px 0; }
+    .section02 .section02-div-obj img {
+      height: 110px;
+      width: 110px;
+      -webkit-border-radius: 50%;
+      border-radius: 50%; }
+    .section02 .section02-div-obj p {
+      text-align: center;
+      font-size: 14px; }
+
+.section03 {
+  height: 240px;
+  background: #1d263a;
+  color: white; }
+  .section03 h3 {
+    width: 487px;
+    margin-top: 70px;
+    margin-bottom: 45px;
+    text-align: center; }
+  .section03 p {
+    margin-bottom: 70px; }
+
+.section04 {
+  height: 630px; }
+  .section04 h2 {
+    margin-top: 70px; }
+  .section04 h5 {
+    margin: 30px 0; }
+  .section04 img {
+    margin-bottom: 30px; }
+  .section04 p {
+    text-align: center;
+    margin-bottom: 60px; }
+  .section04 .section04-small {
+    margin-right: 20px;
+    margin-bottom: 70px; }
+  .section04 .section04-big img {
+    width: 270px;
+    height: 200px;
+    margin-right: 30px; }
+
+.section05 {
+  height: 470px;
+  background: #161f32; }
+  .section05 .section05-photo {
+    height: 420px;
+    width: 570px;
+    background: #000;
+    margin: 25px 30px 0 0; }
+  .section05 .section05-info {
+    width: 570px;
+    margin-top: 25px; }
+    .section05 .section05-info .fa {
+      color: white; }
+    .section05 .section05-info h3 {
+      margin-bottom: 20px;
+      color: white; }
+    .section05 .section05-info p {
+      margin-bottom: 25px;
+      color: white; }
+    .section05 .section05-info hr {
+      border-top: 1px solid white; }
+    .section05 .section05-info .btn1 {
+      color: white;
+      width: 175px;
+      height: 50px; }
+    .section05 .section05-info .section05-info1 p {
+      margin-bottom: 10px; }
+
+.section06 {
+  height: 635px; }
+  .section06 .section06-photo {
+    margin-top: 25px;
+    margin-right: 30px; }
+    .section06 .section06-photo img {
+      width: 270px;
+      height: 200px; }
+  .section06 .section06-photo:last-child {
+    margin-right: 0; }
+  .section06 .section06-btn1 {
+    height: 55px; }
+    .section06 .section06-btn1 .btn1 {
+      height: 100%;
+      width: 55px;
+      background: #3d506f;
+      -webkit-border-radius: 50%;
+      border-radius: 50%; }
+      .section06 .section06-btn1 .btn1 i {
+        font-size: 30px;
+        color: white; }
