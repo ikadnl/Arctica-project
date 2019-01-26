@@ -154,7 +154,10 @@ table {
   .section06 .section06-photo:last-child {
     margin-right: 0; }
   .section06 .section06-btn1 {
-    height: 55px; }
+    height: 55px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 65px; }
     .section06 .section06-btn1 .btn1 {
       height: 100%;
       width: 55px;
@@ -164,3 +167,15 @@ table {
       .section06 .section06-btn1 .btn1 i {
         font-size: 30px;
         color: white; }
+  .section06 h2 {
+    margin-bottom: 30px; }
+  .section06 p {
+    text-align: center;
+    width: 720px;
+    margin-bottom: 70px; }
+  .section06 .btn {
+    width: 170px;
+    height: 50px;
+    border: none;
+    color: white;
+    background: #3d506f; }
