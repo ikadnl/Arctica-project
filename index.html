@@ -4,7 +4,7 @@
     
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Arctica</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
@@ -14,29 +14,33 @@
     <link rel="stylesheet" href="style/style.css" />
 </head>
 <body>
-    <header>
+    <header class="sticky">
         <div class="container">
             <nav class="navbar navbar-expand-lg d-flex justify-content-between">
-              <a class="navbar-brand" href="#">arctica</a>
+              <a class="navbar-brand" href="#">Arctica</a>
               <i class="fas fa-bars"></i>
             </nav>
         </div>       
     </header>
+
     <main>
+
         <section class="section01 d-flex align-items-center justify-content-center">
             <div class="section01-div d-flex align-items-center justify-content-center">
                 <div class="container d-flex align-middle flex-column align-items-center">
                     <h1>arctica</h1>
                     <img class="section01-logo" src="" alt="line">
-                    <div class="p-div">
-                        <p class="text-center">Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan 
-                            tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttlit nisi, pretium ut
-                            lacinia in elementumestibulum ac diam sit anet.</p>
-                    </div>
-                        <button type="button" class="btn btn-outline-light">Purchase Theme</button>
-                    </div>
+                        <div class="p-div">
+                            <p class="text-center">Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan 
+                                tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttlit nisi, pretium ut
+                                lacinia in elementumestibulum ac diam sit anet.
+                            </p>
+                        </div>
+                    <button type="button" class="btn btn-outline-light">Purchase Theme</button>
+                </div>
             </div>    
         </section>
+
         <section class="section02">
             <div class="container">
                 <div class="section02-div01 d-flex align-middle flex-column align-items-center">
@@ -101,6 +105,7 @@
                 </div>
             </div>
         </section>
+
         <section class="section03">
             <div class="container">
                 <div class="section03-div01 d-flex flex-column align-items-center ">
@@ -113,6 +118,7 @@
                 </div>
             </div>
         </section>
+
         <section class="section04">
             <div class="container d-flex flex-column align-items-center">
                 <h2>
@@ -141,7 +147,7 @@
                         <button type="button" class="btn btn-primary">PHOTOGRAPHY</button>
                     </div>
                 </div>
-                <div class="section04-div02 d-flex justify-content-center">
+                <div class="section04-div02 d-flex justify-content-start flex-wrap">
                     <div class="section04-big">
                         <img src="https://images.unsplash.com/photo-1483691278019-cb7253bee49f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt="">
                     </div>
@@ -157,10 +163,11 @@
                 </div>
             </div>
         </section>
+        
         <section class="section05">
             <div class="container d-flex justify-content-between">
                 <div class="section05-photo">
-                    <!-- <img src="" alt="photo"> -->
+                    <img src="https://images.unsplash.com/photo-1483691278019-cb7253bee49f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt="photo">
                 </div>
                 <div class="section05-info">
                     <div class="section05-btn d-flex justify-content-end">
@@ -173,8 +180,7 @@
                             tibulum ac diam sit anet.
                             Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti
                             tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum
-                            san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac 
-                            diam sit anet.
+                            san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.
                     </p>
                     <hr>
                     <div class="section05-info1">
@@ -192,6 +198,7 @@
                 </div>
             </div>
         </section>
+        
         <section class="section06">
             <div class="container d-flex justify-content-center flex-column align-items-center">
                 <div class="section06-div01 d-flex justify-content-center">
@@ -209,7 +216,9 @@
                     </div>
                 </div>
                 <div class="section06-btn1 d-flex justify-content-center">
-                    <button type="button" class="btn btn1"><i class="fas fa-arrow-down"></i></button>
+                    <a href="#section07">
+                        <button type="button" class="btn btn1"><i class="fas fa-arrow-down"></i></button>
+                    </a>
                 </div>
                 <h2>WE LOVE OUR WORK</h2>
                 <p>
@@ -219,56 +228,369 @@ dunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tinc
                 <button type="button" class="btn btn-outline-secondary">Purchase Theme</button>
             </div>
         </section>
-        <!-- <div class="container">
-            <div class="row">
-                <div class="col-6">
+
+        <section id="section07" class="section07">
+            <div class="container d-flex justify-content-center flex-column align-items-center">
+                <div>
+                    <h2>
+                        FULLY RESPONSIVE DESIGN
+                    </h2>
+                </div>
+                <div>
                     <h4>
-                        Great party we have there
+                        ABOUT US
                     </h4>
-                    <h5>
-                        Published by: John Doe
-                    </h5>
+                </div>
+                <div>
+                    <img class="brline" src="" alt="line">
+                </div>
+                <div>
                     <p>
-                        Donec sollicitudin molestie male
-                        suada. Curabitur aliquet quam id
-                        dui posuere blandit. Nulla porttitor 
-                        accumsan tincidunt. Quisque velit 
-                        nisi, pretium ut lacinia in, elemena 
-                        porttitor accumsan tincidunt. 
-                        Quisque velit nid enim. Vestibulum 
-                        ac diam sit anet.
+                        Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tinci
+dunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lac
+inia in, elementum id enim. Vestibulum ac diam sit anet.
                     </p>
                 </div>
-                <div class="col-6">
+                <div class="d-flex justify-content-start flex-wrap">
+                    <div class="section07-photo">
+                        <img id="a" class="section07-portrait" src="img/ketevan.jpg" alt="">
+                        <h5>
+                            Keto Barbakadze
+                        </h5>
+                        <h6>
+                            Creative Director
+                        </h6>
+                    </div>
+                    <div class="section07-photo">
+                        <img class="section07-portrait" src="img/nitta.jpg" alt="">
+                        <h5>
+                            Nitta Gongadze
+                        </h5>
+                        <h6>
+                            Graphic Designer
+                        </h6>
+                    </div>
+                    <div class="section07-photo">
+                        <img class="section07-portrait" src="img/irakli.jpg" alt="">
+                        <h5>
+                            Irakli Danelia
+                        </h5>
+                        <h6>
+                            Web Developer
+                        </h6>
+                    </div>
+                    <div class="section07-photo">
+                        <img class="section07-portrait" src="img/gvanca.jpg" alt="">
+                        <h5>
+                            Gvanca Gelovani
+                        </h5>
+                        <h6>
+                            Photographer
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="b" class="section07-display">
+            <div class="container">
+                <div class="section05-btn d-flex justify-content-end">
+                    <button class="btn"><i class="fa fa-close"></i></button>
+                </div>
+                <div>
                     <h4>
-                        Great party we have there
+                        My Story
                     </h4>
-                    <h5>
-                        Published by: John Doe
-                    </h5>
+                </div>
+                <div class="p-div">
                     <p>
-                        Donec sollicitudin molestie male
-                        suada. Curabitur aliquet quam id
-                        dui posuere blandit. Nulla porttitor 
-                        accumsan tincidunt. Quisque velit 
-                        nisi, pretium ut lacinia in, elemena 
-                        porttitor accumsan tincidunt. 
-                        Quisque velit nid enim. Vestibulum 
-                        ac diam sit anet.
+                        Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor 
+                        accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.
+                        Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tinci
+                        dunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.
                     </p>
+                </div>
+                <div>
+                    <div class="p-div2">
+                        <p>
+                            2 Years In Arctica
+                        </p>
+                    </div>
+                    <div class="p-div3">
+                        <p>
+                            From NY
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        <section class="section08">
+            <div class="container">
+                <div class="section08-div01 d-flex flex-column align-items-center">
+                    <div>
+                        <h3>
+                            WE HAVE SKILLS
+                        </h3>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <p class="p-div">
+                            Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tinci
+                            dunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidun.
+                        </p>
+                    </div>
+                </div>
+                <div class="section08-div02 d-flex flex-wrap">
+                    <div class="company-div">
+                        <div>
+                            <h4>
+                                Our Company
+                            </h4>
+                        </div>
+                        <div>
+                            <p class="p-div2">
+                                Cras ultricies ligula sed magna dictum porta. Curabitur arcu erat, accumsan id imperdiet 
+                                et, porttitor at sem. Nulla quis lorem ut libero malesuada feugiat. Nulla porttitor accum
+                                san tincidunt. Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, 
+                                pretium ut lacinia in, elementum id enim. Quisque velit nisi, pretium ut lacinia in, 
+                                elementum id enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices 
+                                posuere cubilia Curae; Donec velit neque, auctor situr arcu erat, accumsan id imperdiet 
+                                et, porttitor at sem.
+                            </p>
+                        </div>
+                        <button type="button" class="btn btn-outline-secondary">Read More</button>
+                    </div>
+                    <div class="skills-div">
+                        <div>
+                            <h4>
+                                Our Skills
+                            </h4>
+                        </div>
+                        <div>
+                            <div class="section08-skills">
+                                <div class="section08-skill1">
+                                    <p>
+                                        HTML&CSS
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="section08-skills">
+                                <div class="section08-skill2">
+                                    <p>
+                                        JAVASCRIPT
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="section08-skills">
+                                <div class="section08-skill3">
+                                    <p>
+                                        GRAPHIC DESIGN
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="section08-skills">
+                                <div class="section08-skill4">
+                                    <p>
+                                        PHOTOGRAPHY
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section08-under">
+                <div class="container d-flex justify-content-between">
+                    <div class="under-div d-flex justify-content-between">
+                            <img src="img/customers.png" alt="">
+                            <div>
+                                <p>230</p>
+                                <p>Customers</p>
+                            </div>
+                        </div>
+                        <div class="under-div d-flex justify-content-between">
+                            <img src="img/awards.png" alt="">
+                            <div>
+                                <p>230</p>
+                                <p>Customers</p>
+                            </div>
+                        </div>
+                        <div class="under-div d-flex justify-content-between">
+                            <img src="img/projects.png" alt="">
+                            <div>
+                                <p>230</p>
+                                <p>Customers</p>
+                            </div>
+                        </div>
+                        <div class="under-div d-flex justify-content-between">
+                            <img src="img/followers.png" alt="">
+                            <div>
+                                <p>230</p>
+                                <p>Customers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="section09">
+            <div class="container">
+                <div class="section09-div01 d-flex align-items-center flex-column">
+                    <h2>
+                        BOOTSTRAP GRID READY
+                    </h2>
+                    <h4>
+                        OUR BLOG
+                    </h4>
+                    <img src="" alt="line">
+                    <p>
+                        Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tinci
+                        dunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lac
+                        inia in, elementum id enim. Vestibulum ac diam sit anet.
+                    </p>
+                </div>
+                    <div class=" d-flex justify-content-center">
+                        <div class="section09-btns">
+                            <button type="button" class="btn btn-primary">OLD</button>
+                        </div>
+                        <div class="section09-btns">
+                            <button type="button" class="btn btn-primary">NEWEST</button>
+                        </div>
+                        <div class="section09-btns">
+                            <button type="button" class="btn btn-primary">OLDEST</button>
+                        </div>
+                        <div class="section09-btns">
+                            <button type="button" class="btn btn-primary">MOST POPULAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="row">
+                <div class="row-box col-6 d-flex">
+                    <div class="box-photo">
+                        <img src="" alt="">
+                    </div>
+                    <div class="box-info">
+                        <h4>
+                            Great party we have there
+                        </h4>
+                        <h5>
+                            Published by: John Doe
+                        </h5>
+                        <p>
+                            Donec sollicitudin molestie male
+                            suada. Curabitur aliquet quam id
+                            dui posuere blandit. Nulla porttitor 
+                            accumsan tincidunt. Quisque velit 
+                            nisi, pretium ut lacinia in, elemena 
+                            porttitor accumsan tincidunt. 
+                            Quisque velit nid enim. Vestibulum 
+                            ac diam sit anet.
+                        </p>
+                    </div>
+                </div>
+                <div class="row-box col-6 d-flex">
+                    <div class="box-photo">
+                        <img src="" alt="">
+                    </div>
+                    <div class="box-info">
+                        <h4>
+                            Great party we have there
+                        </h4>
+                        <h5>
+                            Published by: John Doe
+                        </h5>
+                        <p>
+                            Donec sollicitudin molestie male
+                            suada. Curabitur aliquet quam id
+                            dui posuere blandit. Nulla porttitor 
+                            accumsan tincidunt. Quisque velit 
+                            nisi, pretium ut lacinia in, elemena 
+                            porttitor accumsan tincidunt. 
+                            Quisque velit nid enim. Vestibulum 
+                            ac diam sit anet.
+                        </p>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-8 bg-warning">
-                    .col-8
+                <div class="row-box col-8">
+                    <div class="box-big">
+                        <h4>
+                            Great Day
+                        </h4>
+                        <h5>
+                            Published by: John Doe
+                        </h5>
+                        <p>
+                            Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan 
+                            tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. 
+                            Vestibulum ac diam sit anet.Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. 
+                            Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibu
+                            lum ac diam sit anet.
+                            
+                            Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan 
+                            tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. 
+                            Vestibulum ac diam sit anet. 
+                        </p>
+                    </div>
                         <div class="row">
-                            <div class="col-6 bg-success">.col-4</div>
-                            <div class="col-6 bg-success">.col-4</div>
+                            <div class="col-6 bg-success">
+                                <p>
+                                    Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan 
+                                    tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. 
+                                    Vestibulum ac diam sit anet.Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. 
+                                    Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibu
+                                    lum ac diam sit anet.
+                                </p>        
+                            </div>
+                            <div class="col-6 bg-success">
+                                <p>
+                                    Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan 
+                                    tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. 
+                                    Vestibulum ac diam sit anet.Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. 
+                                    Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibu
+                                    lum ac diam sit anet.
+                                </p>    
+                            </div>
                          </div>
                 </div>
-                <div class="col-4 bg-secondary">col-4</div>             
+                <div class="row-box2 col-4">
+                    <div class="box-photo2">
+                        <img src="img/studio.jpg" alt="">
+                    </div>
+                    <div class="box-info2">
+                        <h4>
+                            Say hello to our new studio
+                        </h4>
+                        <h5>
+                            Published by: John Doe
+                        </h5>
+                        <div class="box-p">
+                            <p>
+                                Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan 
+                                tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. 
+                                Vestibulum ac diam sit anet.Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. 
+                                Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibu
+                                lum ac diam sit anet.
+                                
+                                Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan 
+                                tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. 
+                                Vestibulum ac diam sit anet. 
+                            </p>
+                        </div>
+                    </div>
+                </div>             
+            </div>
+            <div>
+                <a href="#section10 d-flex justify-content-center">
+                    <button type="button" class="btn btn1"><i class="fas fa-arrow-down"></i></button>
+                </a>
             </div> 
-        </div> -->
+        </div>
     </main>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
