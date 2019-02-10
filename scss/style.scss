@@ -216,6 +216,9 @@ header{
             background: $color3;
             color: $color1;
         }
+        .btn:hover {
+            background: $color10;
+        }
     }    
     .section04-big{
         padding-bottom: 15px;
@@ -476,7 +479,7 @@ header{
         }
         padding-bottom: 70px;
         .company-div{
-            // width: 555px;
+            width: 555px;
             padding-right: 30px;
             h4{
                 margin-bottom: 30px;
@@ -624,13 +627,18 @@ header{
             background: $color3;
             color: $color1;
         }
+        .btn:hover{
+            background: $color10;
+        }
     }
     .row-box{
-        height: 300px;
         margin-bottom: 30px;
         .box-photo{
             width: 50%;
-            background: $color8;
+            height: 300px;
+            img{
+                height: 100%;
+            }
         }
         .box-info{
             color: $color1;
@@ -706,10 +714,10 @@ header{
     .row-box2{
         .box-photo2{
             margin-bottom: -3px;
-        img{
-            height: 300px;
-            width: 100%;
-            }
+            img{
+                height: 300px;
+                width: 100%;
+                }
         }
         .box-info2{
             color: $color1;
@@ -728,7 +736,7 @@ header{
                 color: $color1;
             }
             p{
-                padding: 0 25px 80px 30px;
+                padding: 0 25px 57px 30px;
                 font-family: $lato;
                 font-size: $font-size1;
                 color: $color9;
@@ -772,7 +780,7 @@ header{
             color: $color1;
             .form-control{
                 background: $color3;
-                width: 575px;
+                width: 400px;
                 height: 65px;
                 margin-right: 30px;
             }
@@ -996,6 +1004,25 @@ footer{
             }
             .skills-div{
                 margin-top: 30px;
+            }
+        }
+        .section10{
+            .box-photo2{
+                display: none;
+            }
+            .box-info{
+                img{
+                    height: 300px;
+                }
+                p{
+                    display: none;
+                }
+            }
+            .box-info2{
+                display: none;
+            }
+            .box-info-small{
+                display: none;
             }
         }
         .section11-01{

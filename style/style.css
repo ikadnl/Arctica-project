@@ -192,6 +192,8 @@ header {
   .section04 .section04-small .btn {
     background: #3d506f;
     color: #fff; }
+  .section04 .section04-small .btn:hover {
+    background: turquoise; }
 
 .section04 .section04-big {
   padding-bottom: 15px; }
@@ -385,6 +387,7 @@ header {
       color: #3d506f;
       font-size: 20px; }
     .section08 .section08-div02 .company-div {
+      width: 555px;
       padding-right: 30px; }
       .section08 .section08-div02 .company-div h4 {
         margin-bottom: 30px; }
@@ -496,13 +499,16 @@ header {
   .section10 .section10-btns .btn {
     background: #3d506f;
     color: #fff; }
+  .section10 .section10-btns .btn:hover {
+    background: turquoise; }
 
 .section10 .row-box {
-  height: 300px;
   margin-bottom: 30px; }
   .section10 .row-box .box-photo {
     width: 50%;
-    background: #000; }
+    height: 300px; }
+    .section10 .row-box .box-photo img {
+      height: 100%; }
   .section10 .row-box .box-info {
     color: #fff;
     background: #161f32;
@@ -583,7 +589,7 @@ header {
     font-size: 15px;
     color: #fff; }
   .section10 .row-box2 .box-info2 p {
-    padding: 0 25px 80px 30px;
+    padding: 0 25px 57px 30px;
     font-family: "Lato", sans-serif;
     font-size: 15px;
     color: #90959f; }
@@ -621,7 +627,7 @@ header {
   color: #fff; }
   .section10 .subscribe .subscribe-field .form-control {
     background: #3d506f;
-    width: 575px;
+    width: 400px;
     height: 65px;
     margin-right: 30px; }
   .section10 .subscribe .subscribe-field input::-webkit-input-placeholder {
@@ -810,6 +816,16 @@ footer {
     align-items: center; }
   main .section08 .skills-div {
     margin-top: 30px; }
+  main .section10 .box-photo2 {
+    display: none; }
+  main .section10 .box-info img {
+    height: 300px; }
+  main .section10 .box-info p {
+    display: none; }
+  main .section10 .box-info2 {
+    display: none; }
+  main .section10 .box-info-small {
+    display: none; }
   main .section11-01 .section11-div01-icons {
     display: -webkit-box;
     display: -webkit-flex;
