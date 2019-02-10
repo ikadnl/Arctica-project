@@ -34,7 +34,8 @@ table {
   border-spacing: 0; }
 
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  overflow-x: hidden; }
 
 header {
   z-index: 1000;
@@ -52,21 +53,26 @@ header {
   width: 100%; }
 
 .section01 {
-  height: 700px;
+  padding: 160px 0;
   background: #546279;
   margin-top: 100px; }
   .section01 .section01-div {
+    padding: 65px 0;
     background: #222c40;
-    height: 360px;
     width: 100%; }
     .section01 .section01-div h1 {
       margin-bottom: 30px;
       color: #fff;
       font-family: "Molle", cursive;
       font-size: 52px; }
-    .section01 .section01-div .far {
-      margin-bottom: 20px;
-      color: #fff; }
+    .section01 .section01-div .br-line {
+      margin-bottom: 20px; }
+      .section01 .section01-div .br-line .line-div {
+        border-bottom: 1px solid #fff;
+        width: 300px; }
+      .section01 .section01-div .br-line .circle-div {
+        color: #fff;
+        padding: 0 10px; }
     .section01 .section01-div .p-div {
       width: 58%;
       margin-bottom: 20px;
@@ -92,8 +98,14 @@ header {
     color: #90959f;
     font-size: 20px;
     margin: 30px 0; }
-  .section02 .section02-div01 .far {
-    color: #90959f; }
+  .section02 .section02-div01 .br-line {
+    margin-bottom: 20px; }
+    .section02 .section02-div01 .br-line .line-div {
+      border-bottom: 1px solid #90959f;
+      width: 300px; }
+    .section02 .section02-div01 .br-line .circle-div {
+      color: #90959f;
+      padding: 0 10px; }
   .section02 .section02-div01 p {
     font-family: "Lato", sans-serif;
     color: #90959f;
@@ -108,6 +120,7 @@ header {
   width: 260px;
   margin-bottom: 80px; }
   .section02 .section02-div-obj h3 {
+    text-align: center;
     margin: 27px 0;
     font-family: "Lato", sans-serif;
     font-size: 20px;
@@ -156,9 +169,14 @@ header {
   color: #90959f;
   font-size: 20px; }
 
-.section04 .far {
-  margin-bottom: 30px;
-  color: #90959f; }
+.section04 .br-line {
+  margin-bottom: 20px; }
+  .section04 .br-line .line-div {
+    border-bottom: 1px solid #90959f;
+    width: 300px; }
+  .section04 .br-line .circle-div {
+    color: #90959f;
+    padding: 0 10px; }
 
 .section04 p {
   text-align: center;
@@ -176,8 +194,7 @@ header {
     color: #fff; }
 
 .section04 .section04-big {
-  padding-bottom: 15px;
-  margin-right: 30px; }
+  padding-bottom: 15px; }
   .section04 .section04-big img {
     width: 255px;
     height: 200px; }
@@ -220,49 +237,51 @@ header {
       .section05 .section05-info .section05-info1 p i {
         margin-right: 5px; }
 
-.section06 {
-  height: 635px; }
-  .section06 .section06-photo {
-    margin-top: 25px;
-    margin-right: 30px; }
-    .section06 .section06-photo img {
-      width: 255px;
-      height: 200px; }
-  .section06 .section06-photo:last-child {
-    margin-right: 0; }
-  .section06 .section06-btn1 {
-    height: 55px;
-    width: 100%;
-    margin-top: 30px;
-    margin-bottom: 65px; }
-    .section06 .section06-btn1 .btn1 {
-      height: 100%;
-      width: 55px;
-      background: #3d506f;
-      -webkit-border-radius: 50%;
-      border-radius: 50%; }
-      .section06 .section06-btn1 .btn1 i {
-        font-size: 30px;
-        color: #fff; }
-  .section06 h2 {
-    margin-bottom: 30px;
-    font-size: 30px;
-    font-family: "Lato", sans-serif;
-    color: #3d506f; }
-  .section06 p {
-    text-align: center;
-    width: 720px;
-    margin-bottom: 70px;
-    font-family: "Lato", sans-serif;
-    font-size: 15px;
-    color: #90959f;
-    line-height: 22px; }
-  .section06 .btn {
-    width: 170px;
-    height: 50px;
-    border: none;
-    color: #fff;
-    background: #fff; }
+.section06 .section06-photo {
+  margin-top: 25px; }
+  .section06 .section06-photo img {
+    width: 255px;
+    height: 200px; }
+
+.section06 .section06-photo:last-child {
+  margin-right: 0; }
+
+.section06 .section06-btn1 {
+  height: 55px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 65px; }
+  .section06 .section06-btn1 .btn1 {
+    height: 100%;
+    width: 55px;
+    background: #3d506f;
+    -webkit-border-radius: 50%;
+    border-radius: 50%; }
+    .section06 .section06-btn1 .btn1 i {
+      font-size: 30px;
+      color: #fff; }
+
+.section06 h2 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  color: #3d506f; }
+
+.section06 p {
+  text-align: center;
+  width: 720px;
+  margin-bottom: 70px;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  color: #90959f;
+  line-height: 22px; }
+
+.section06 .btn {
+  width: 170px;
+  height: 50px;
+  border: none;
+  color: #fff;
+  background: #fff; }
 
 .section07 {
   background: #222c40;
@@ -278,6 +297,14 @@ header {
     color: #fff;
     font-family: "Lato", sans-serif;
     font-size: 20px; }
+  .section07 .br-line {
+    margin-bottom: 20px; }
+    .section07 .br-line .line-div {
+      border-bottom: 1px solid #fff;
+      width: 300px; }
+    .section07 .br-line .circle-div {
+      color: #fff;
+      padding: 0 10px; }
   .section07 p {
     padding-top: 30px;
     padding-bottom: 80px;
@@ -289,12 +316,11 @@ header {
     line-height: 22px; }
   .section07 .section07-portrait {
     margin-bottom: 25px;
-    width: 200px;
     -webkit-border-radius: 50%;
-    border-radius: 50%; }
+    border-radius: 50%;
+    height: 200px; }
   .section07 .section07-photo {
-    text-align: center;
-    margin-right: 75px; }
+    text-align: center; }
   .section07 .section07-photo:last-child {
     margin-right: 0; }
   .section07 h5 {
@@ -359,7 +385,6 @@ header {
       color: #3d506f;
       font-size: 20px; }
     .section08 .section08-div02 .company-div {
-      width: 555px;
       padding-right: 30px; }
       .section08 .section08-div02 .company-div h4 {
         margin-bottom: 30px; }
@@ -448,9 +473,14 @@ header {
   font-size: 15px;
   color: #90959f; }
 
-.section10 .section10-div01 .far {
-  margin-bottom: 30px;
-  color: #90959f; }
+.section10 .section10-div01 .br-line {
+  margin-bottom: 20px; }
+  .section10 .section10-div01 .br-line .line-div {
+    border-bottom: 1px solid #90959f;
+    width: 300px; }
+  .section10 .section10-div01 .br-line .circle-div {
+    color: #90959f;
+    padding: 0 10px; }
 
 .section10 .section10-div01 p {
   text-align: center;
@@ -654,9 +684,14 @@ header {
     font-family: "Lato", sans-serif;
     font-size: 15px;
     color: #90959f; }
-  .section11-02 .far {
-    margin: 30px 0 40px 0;
-    color: #90959f; }
+  .section11-02 .br-line {
+    margin: 20px 0; }
+    .section11-02 .br-line .line-div {
+      border-bottom: 1px solid #90959f;
+      width: 300px; }
+    .section11-02 .br-line .circle-div {
+      color: #90959f;
+      padding: 10px; }
   .section11-02 h4 {
     margin-bottom: 65px;
     font-family: "Lato", sans-serif;
@@ -728,6 +763,8 @@ header {
     height: 70px;
     color: #1d263a;
     font-size: 20px; }
+  .section12 textarea {
+    resize: none; }
 
 footer {
   padding-top: 70px;
@@ -741,3 +778,144 @@ footer {
     padding: 30px 0;
     font-size: 15px;
     font-family: "Lato", sans-serif; }
+
+@media only screen and (max-width: 1200px) {
+  main .section04 .section04-div02 {
+    margin-left: 110px;
+    margin-bottom: 15px; }
+  main .section05 .container {
+    padding-bottom: 30px; }
+  main .section06 .section06-div01 {
+    margin-left: 110px;
+    margin-bottom: 15px; }
+  main .section07 h2 {
+    text-align: center; }
+  main .section08 .section08-div02 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  main .section08 .skills-div {
+    margin-top: 30px; }
+  main .section11-01 .section11-div01-icons {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    main .section11-01 .section11-div01-icons img {
+      margin: 0 0 30px 60px; } }
+
+@media only screen and (max-width: 1000px) {
+  main .section04 .section04-div02 {
+    margin-left: 40px;
+    margin-bottom: 15px; }
+  main .section05 .container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 30px 0; }
+    main .section05 .container .section05-info {
+      margin-left: 100px; }
+  main .section06 .section06-div01 {
+    margin-left: 40px;
+    margin-bottom: 15px; } }
+
+@media only screen and (max-width: 995px) {
+  main .section02 .section02-div02 p {
+    display: none; } }
+
+@media only screen and (max-width: 790px) {
+  main .section05 {
+    padding-left: 0; }
+    main .section05 .section05-photo {
+      display: none; }
+    main .section05 .section05-info {
+      width: 350px;
+      margin-left: 70px; }
+  main .br-line {
+    width: 85%; } }
+
+@media only screen and (max-width: 760px) {
+  main .section04 .section04-div02 {
+    margin-left: 110px;
+    margin-bottom: 15px; }
+  main .section05 .section05-info {
+    margin-left: 40px; }
+  main .section06 .section06-div01 {
+    margin-left: 110px;
+    margin-bottom: 15px; }
+  main .section06 p {
+    width: 400px; }
+  main .section09 {
+    display: none; }
+  main .section12 h2 {
+    text-align: center; }
+  main .section12 .section12-contact .contact-div:nth-child(2) {
+    margin-left: 10px; }
+  main .section12 .section12-contact .p-div {
+    display: none; } }
+
+@media only screen and (max-width: 680px) {
+  .section08 .skills-div {
+    display: none; } }
+
+@media only screen and (max-width: 580px) {
+  main .section04 .section04-div02 {
+    margin: 90px; }
+  main .section05 .section05-info {
+    margin-left: 0px; }
+  main .section06 .section06-div01 {
+    margin: 90px; }
+  main .section08 .company-div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    main .section08 .company-div h4 {
+      font-size: 30px; }
+    main .section08 .company-div p {
+      display: none; }
+  main .section11-01 .section11-div01-icons {
+    margin-left: 115px; } }
+
+@media only screen and (max-width: 520px) {
+  .section11-01 .section11-div01 h3 {
+    text-align: center; }
+  .section11-01 .section11-div01 .section11-div01-icons {
+    margin-left: 80px; } }

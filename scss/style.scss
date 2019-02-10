@@ -4,6 +4,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 // Header
@@ -32,12 +33,12 @@ header{
 
 // section01
 .section01{
-    height: 700px;
+    padding: 160px 0;
     background: $color5;
     margin-top: 100px;
     .section01-div{
+        padding: 65px 0;
         background: $color2;
-        height: 360px;
         width: 100%;
         h1{
             margin-bottom: 30px;
@@ -45,9 +46,16 @@ header{
             font-family: $molle;
             font-size: $font-size5;
         }
-        .far {
+        .br-line{
             margin-bottom: 20px;
-            color: $color1;
+            .line-div{
+                border-bottom: 1px solid $color1;
+                width: 300px;
+            }
+            .circle-div{
+                color: $color1;
+                padding: 0 10px;
+            }
         }
         .p-div {
             width: 58%;
@@ -88,8 +96,16 @@ header{
             font-size: $font-size2;
             margin: 30px 0;
         }
-        .far{
-            color: $color9;
+        .br-line{
+            margin-bottom: 20px;
+            .line-div{
+                border-bottom: 1px solid $color9;
+                width: 300px;
+            }
+            .circle-div{
+                color: $color9;
+                padding: 0 10px;
+            }
         }
         p{
             font-family: $lato;
@@ -106,6 +122,7 @@ header{
         width: 260px;
         margin-bottom: 80px;
         h3{
+            text-align: center;
             margin: 27px 0;
             font-family: $lato;
             font-size: $font-size2;
@@ -137,8 +154,6 @@ header{
 // section03
 
 .section03{
-    
-    // height: 240px;
     background: $color7;
     color: $color1;
     .section03-div01{
@@ -175,9 +190,16 @@ header{
         color: $color9;
         font-size: $font-size2;
     }
-    .far{
-        margin-bottom: 30px;
-        color: $color9;
+    .br-line{
+        margin-bottom: 20px;
+        .line-div{
+            border-bottom: 1px solid $color9;
+            width: 300px;
+        }
+        .circle-div{
+            color: $color9;
+            padding: 0 10px;
+        }
     }
     p{
         text-align: center;
@@ -197,7 +219,6 @@ header{
     }    
     .section04-big{
         padding-bottom: 15px;
-        margin-right: 30px;
         img{
             width: 255px;
             height: 200px;
@@ -265,10 +286,8 @@ header{
 // section06
 
 .section06 {
-    height: 635px;
     .section06-photo{
         margin-top: 25px;
-        margin-right: 30px;
         img{
             width: 255px;
             height: 200px;
@@ -338,6 +357,17 @@ header{
         font-family: $lato;
         font-size: $font-size2;
     }
+    .br-line{
+        margin-bottom: 20px;
+        .line-div{
+            border-bottom: 1px solid $color1;
+            width: 300px;
+        }
+        .circle-div{
+            color: $color1;
+            padding: 0 10px;
+        }
+    }
     p{
         padding-top: 30px;
         padding-bottom: 80px;
@@ -350,12 +380,11 @@ header{
     }
     .section07-portrait{
         margin-bottom: 25px;
-        width: 200px;
         border-radius: 50%;
+        height: 200px;
     }
     .section07-photo {
         text-align: center;
-        margin-right: 75px;
     }
     .section07-photo:last-child{
         margin-right: 0;
@@ -447,7 +476,7 @@ header{
         }
         padding-bottom: 70px;
         .company-div{
-            width: 555px;
+            // width: 555px;
             padding-right: 30px;
             h4{
                 margin-bottom: 30px;
@@ -568,9 +597,16 @@ header{
             font-size: $font-size1;
             color: $color9;
         }
-        .far{
-            margin-bottom: 30px;
-            color: $color9;
+        .br-line{
+            margin-bottom: 20px;
+            .line-div{
+                border-bottom: 1px solid $color9;
+                width: 300px;
+            }
+            .circle-div{
+                color: $color9;
+                padding: 0 10px;
+            }
         }
         p{
             text-align: center;
@@ -807,9 +843,16 @@ header{
         font-size: $font-size1;
         color: $color9;
     }
-    .far{
-        margin: 30px 0 40px 0;
-        color: $color9;
+    .br-line{
+        margin: 20px 0;
+        .line-div{
+            border-bottom: 1px solid $color9;
+            width: 300px;
+        }
+        .circle-div{
+            color: $color9;
+            padding:  10px;
+        }
     }
     h4{
         margin-bottom: 65px;
@@ -891,6 +934,9 @@ header{
             font-size: $font-size2;
         }
     }
+    textarea{
+        resize: none;
+    }
 }
 
 // section12
@@ -915,3 +961,209 @@ footer{
 
 
 // footer
+
+
+@media only screen and (max-width:1200px){
+    main{
+        .section04{
+            .section04-div02{
+                margin-left: 110px;
+                margin-bottom: 15px;
+            }
+        }
+        .section05{
+            .container{
+                padding-bottom: 30px;
+            }
+        }
+        .section06{
+            .section06-div01{
+                margin-left: 110px;
+                margin-bottom: 15px;
+            }
+        }
+        .section07{
+            h2{
+                text-align: center;
+            }
+        }
+        .section08{
+            .section08-div02{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .skills-div{
+                margin-top: 30px;
+            }
+        }
+        .section11-01{
+            .section11-div01-icons{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    margin: 0 0 30px 60px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:1000px){
+    main{
+        .section04{
+            .section04-div02{
+                margin-left: 40px;
+                margin-bottom: 15px;
+            }
+        }
+        .section05{
+            .container{
+                display: flex;
+                flex-direction: column;
+                padding: 30px 0;
+                .section05-info{
+                    margin-left: 100px;   
+                }
+            }
+        }
+        .section06{
+            .section06-div01{
+                margin-left: 40px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:995px){
+    main{
+        .section02{
+            .section02-div02{
+                p{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:790px){
+    main{
+        .section05{
+            padding-left: 0;
+            .section05-photo{
+                display: none;
+            }
+            .section05-info{
+                width: 350px;
+                margin-left: 70px;
+            }
+        }
+        .br-line{
+            width: 85%;
+        }
+    }
+}
+
+@media only screen and (max-width:760px){
+    main{
+        .section04{
+            .section04-div02{
+                margin-left: 110px;
+                margin-bottom: 15px;
+            }
+        }
+        .section05{
+            .section05-info{
+                margin-left: 40px;
+            }
+        }
+        .section06{
+            .section06-div01{
+                margin-left: 110px;
+                margin-bottom: 15px;
+            }
+            p{
+                width: 400px;
+            }
+        }
+        .section09{
+            display: none;
+        }
+        .section12{
+            h2{
+                text-align: center;
+            }
+            .section12-contact{
+                .contact-div:nth-child(2){
+                    margin-left: 10px;
+                }
+                .p-div{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:680px){
+    .section08{
+        .skills-div{
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width:580px){
+    main{
+        .section04{
+            .section04-div02{
+                margin: 90px;;
+            }
+        }
+        .section05{
+            .section05-info{
+                margin-left: 0px;
+            }
+        }
+        .section06{
+            .section06-div01{
+                margin: 90px;
+            }
+        }
+        .section08{
+            .company-div{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h4{
+                    font-size: $font-size3;
+                }
+                p{
+                    display: none;
+                }
+            }
+        }
+        .section11-01{
+            .section11-div01-icons{
+                margin-left: 115px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:520px){
+    .section11-01{
+        .section11-div01{
+            h3{
+                text-align: center;
+            }
+            .section11-div01-icons{
+                margin-left: 80px;
+            }
+        }
+    }
+}
